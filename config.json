@@ -1,0 +1,58 @@
+{
+	"workflowApiVersion": "1.1",
+	"metaData": {
+		"icon": "logo.png",
+		"category": "message",
+		"iconSmall": null,
+		"statsContactIcon": null
+	},
+	"type": "REST",
+	"lang": {
+		"en-US": {
+			"name": "LVMH Testing - shreejith - Custom API",
+			"description": "An example REST activity using workflow API v1.1 format."
+		}
+	},
+	"arguments": {
+		"execute": {
+			"inArguments": [
+				{
+					"to": "{{InteractionDefaults.UID}}",
+					"testData": "sample",
+					"messages": ""
+				}
+			],
+			"outArguments": [
+				{
+					"result": "success"
+				}
+			],
+			"url": "https://mc3hsdr3cx1sbmpjdz61sr1qjphq.pub.sfmc-content.com/oqhmmy3ss03",
+			"verb": "POST",
+			"format": "json",
+			"useJwt": true,
+			"customerKey": "97284af6-0619-47e5-8ed9-7981bfac9474"
+		}
+	},
+	"configurationArguments": {
+		"save": {
+			"url": "https://mc3hsdr3cx1sbmpjdz61sr1qjphq.pub.sfmc-content.com/oqhmmy3ss03"
+		},
+		"publish": {
+			"url": "https://mc3hsdr3cx1sbmpjdz61sr1qjphq.pub.sfmc-content.com/oqhmmy3ss03"
+		},
+		"validate": {
+			"url": "https://mc3hsdr3cx1sbmpjdz61sr1qjphq.pub.sfmc-content.com/oqhmmy3ss03"
+		},
+		"stop": {}
+	},
+	"editable": true,
+	"schema": {
+		"arguments": {
+			"execute": {
+				"outArguments": [],
+				"inArguments": []
+			}
+		}
+	}
+}

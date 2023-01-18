@@ -1,0 +1,14 @@
+.container {
+	box-shadow: rgba(149, 157, 165, 0.3) 0px 8px 24px;
+	border-radius: 0.2rem;
+	padding: 2rem;
+	margin-top: 2rem;
+	width: 70vw !important;
+}
+#step1 > * {
+	margin-top: 0.5rem;
+}
+.section {
+	display: flex;
+	gap: 5rem;
+}
